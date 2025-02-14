@@ -6,7 +6,7 @@ The source code for PromptHive will be released soon. Stay tuned for updates!
 
 ## Demo
 
-[![PromptHive Video Figure](https://img.youtube.com/vi/8ZXyo5uSGtA/default.jpg)](https://www.youtube.com/watch?v=8ZXyo5uSGtA)
+[![PromptHive Video Figure](https://img.youtube.com/vi/8ZXyo5uSGtA/0.jpg)](https://www.youtube.com/watch?v=8ZXyo5uSGtA)
 
 # Paper  
 To credit this system, please cite our CHI'25 paper, "PromptHive: Bringing Subject Matter Experts Back to the Forefront with Collaborative Prompt Engineering for Educational Content Creation" Mohi Reza, Ioannis Anastasopoulos, Shreya Bhandari, Zachari A. Pardos. 2025
