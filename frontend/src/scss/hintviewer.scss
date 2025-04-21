@@ -1,0 +1,95 @@
+// .full-height {
+//   height: calc(100vh - 200000px);
+//   overflow-y: auto;
+//   background-color: blue;
+// }
+.sheet-list {
+  overflow-y: auto;
+  height: calc(100vh - 158px);
+}
+.sheet-header {
+  height: 53px;
+}
+.loading-div {
+  height: 100%;
+}
+
+.side-panel {
+  width: min-content;
+}
+
+.content-panel {
+  width: 100%;
+}
+.shared-prompt-list {
+  // background-color: blue;
+
+  height: calc(100% - 80px);
+  overflow: scroll;
+}
+
+//ALL PROBLEMS
+.problems-container {
+}
+
+.problems-card {
+  height: calc(100vh - 104px);
+}
+
+.prompt-result {
+  max-height: 40vh;
+  min-height: 45px;
+  overflow-y: auto;
+}
+
+.problems-card-header {
+  height: 53px;
+}
+
+.problems-card-body {
+  height: 100%;
+  overflow: auto;
+}
+
+.problems-card-panel {
+}
+
+.problems-card-footer {
+}
+
+//INDIVIDUAL PROBLEM CARDS
+.problem-card {
+  height: 400px;
+}
+
+.problem-body {
+  overflow-y: auto;
+}
+
+.problem-details {
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+.prompt-options {
+  max-height: 258px;
+  overflow-y: scroll;
+}
+
+.lesson-chips {
+  min-height: 36px;
+  max-height: 75px;
+  width: 100%;
+  overflow: auto;
+}
+
+.tab-header {
+}
+
+.problem-counter {
+  width: 30px;
+  text-align: center;
+  border: 1px solid lightgray;
+  margin-right: 1px;
+  user-select: none;
+}
