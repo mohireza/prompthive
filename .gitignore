@@ -1,0 +1,49 @@
+.env
+node_modules/
+.cache/
+dist/
+backend/.env
+.DS_Store
+coverage/
+.vscode/
+
+# Ignore Node.js files and directories
+node_modules/
+build/
+.cache/
+yarn.lock
+*.log
+
+# Ignore Python files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+env/
+*.egg
+*.egg-info/
+dist/
+*.log
+*.pid
+*.sqlite
+.venv/
+
+# Ignore common editor files and directories
+*.swp
+*.swo
+*.DS_Store
+.idea/
+.vscode/
+*.iml
+*.ipynb_checkpoints/
+
+# Credentials and sensitive files
+# Ignore sensitive Google credentials and token files
+backend/src/credentials.json
+backend/src/token.json
+
+frontend/build/

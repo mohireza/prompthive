@@ -1,0 +1,87 @@
+.reorder-item {
+  list-style-type: none;
+}
+
+.reorder-handle {
+  padding: 10px;
+  cursor: grabbing;
+}
+
+.reorder-group {
+  overflow: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.list-item {
+  width: 100%;
+}
+.side-panel {
+  width: min-content;
+}
+
+.content-panel {
+  width: calc(100% - 45px);
+}
+
+.settings-card {
+  overflow: auto;
+  height: 100%;
+}
+
+.result-card {
+  overflow: auto;
+  height: 100%;
+}
+
+.prompt-writing-card {
+  height: 100%;
+}
+.prompt-writing-card-body {
+  overflow: auto;
+}
+.panel-card {
+  height: 100%;
+}
+.panel-card-body {
+  overflow: auto;
+}
+
+.divider {
+  color: #828282;
+  width: 95%;
+  margin: 5px auto;
+  overflow: hidden;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.divider:before,
+.divider:after {
+  content: "";
+  vertical-align: middle;
+  display: inline-block;
+  width: 50%;
+  border-bottom: 2px dotted #ccc;
+  margin: 0 2% 0 -55%;
+}
+.divider:after {
+  margin: 0 -55% 0 2%;
+}
+
+#scratchpad-dropdown {
+  width: min-content;
+}
+
+.message-history-listgroup {
+  background-color: blue;
+
+  overflow-y: scroll;
+}
+.message-history-container {
+  max-width: calc(100% - 120px);
+}
+
+.new-button {
+  box-shadow: -5px 0px 6px -6px grey;
+}

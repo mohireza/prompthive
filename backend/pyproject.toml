@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = "the flask backend for PromptHive. Connects to a mongodb instance, mooclet instance, and the react frontend"
+authors = ["Nathan Laundry, Mohi Reza"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mongoengine = "^0.27.0"
+flask-mongoengine = "^1.0.0"
+python-dotenv = "^1.0.0"
+flask-cors = "^3.0.10"
+resend = "^0.5.1"
+openai = "^1.42.0"
+pytz = "^2023.3.post1"
+flask-security-too = "5.1.2"
+google-api-python-client = "^2.125.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.0"
+pytexit = "^0.4.0"
+
+pydantic = "^2.8.2"
+[tool.poetry.group.dev.dependencies]
+Flask = "2.2.3"
+pymongo = "^4.3.3"
+pytest = "^7.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "src.app:main"
