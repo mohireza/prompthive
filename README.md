@@ -30,7 +30,7 @@ These instructions will help you set up PromptHive locally for development or ex
 
 ---
 
-### 🔧 Setup Instructions
+### Setup Instructions
 
 #### 1. Clone the repository
 
