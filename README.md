@@ -8,12 +8,12 @@ PromptHive is an open-source system for collaborative prompt authoring designed 
 Note: You can also try a live version of the app here: https://tryprompthive.com/
 
 ## CHI 2025 Paper  
-To credit this system, please cite our CHI'25 paper, "PromptHive: Bringing Subject Matter Experts Back to the Forefront with Collaborative Prompt Engineering for Educational Content Creation" Mohi Reza, Ioannis Anastasopoulos, Shreya Bhandari, Zachari A. Pardos. 2025
+To credit this system, please cite our CHI'25 paper, "PromptHive: Bringing Subject Matter Experts Back to the Forefront with Collaborative Prompt Engineering for Educational Content Creation" Mohi Reza, Ioannis Anastasopoulos, Shreya Bhandari, Zachary A. Pardos. 2025
 
 ```bibtex
 @inproceedings{reza2025prompthive,
   title={PromptHive: Bringing Subject Matter Experts Back to the Forefront with Collaborative Prompt Engineering for Educational Content Creation},
-  author={Mohi Reza, Ioannis Anastasopoulos, Shreya Bhandari, Zachari A. Pardos},
+  author={Mohi Reza, Ioannis Anastasopoulos, Shreya Bhandari, Zachary A. Pardos},
   booktitle={Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
   pages={1-24},
   organization={Association for Computing Machinery},
